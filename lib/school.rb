@@ -5,7 +5,7 @@ class School
     @name = name
   end
 
-   roster = {}
+   roster = []
 
   def roster=(roster)
     @roster = roster
