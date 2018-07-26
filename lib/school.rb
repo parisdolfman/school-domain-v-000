@@ -14,8 +14,8 @@ class School
     roster[name] = []
     roster[name] << grade
   end
-end
     roster
+  end
   end
 
 end
