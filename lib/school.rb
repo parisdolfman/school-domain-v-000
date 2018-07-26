@@ -3,9 +3,10 @@
 class School
   def initialize(name)
     @name = name
+    ROSTER = {}
   end
 
-  ROSTER = {}
+
 
   def roster=(roster)
     @roster = roster
