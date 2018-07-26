@@ -1,16 +1,16 @@
 # code here!
 
 class School
-  def initialize(name)
-    @name = name
+  def initialize(school_name)
+    @school_name = school_name
+    @roster ={}
   end
 
   def roster
-    roster = {}
+    @roster 
   end
 
   def add_student(name, grade)
-    roster = {}
     roster[name] = []
     roster[name] << grade
   end
